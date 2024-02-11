@@ -1,0 +1,114 @@
+.containter-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(235, 242, 243);
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    flex-wrap: wrap;
+}
+.second-container{
+    height: 550px;
+    width: 850px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box-login {
+    height: 550px;
+    width: 50%;
+}
+.box-one{
+    background-image: url('../images/doctor-f.jpg');
+    background-size: cover;
+}
+.box-two{
+    display: flex;
+    flex-direction: column;
+}
+.topic-head{
+    text-align: left;
+    margin: 10px 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input-login{
+    margin: 5px 10px 15px 0;
+    height: 37px;
+    width: 90%;
+    background-color: rgb(241, 241, 241);
+    border: none;
+    padding: 5px;
+}
+.unserline-text{
+    height: 2px;
+    width: 67%;
+    background-color: rgb(143, 143, 143);
+    margin: 5px 0 20px 0;
+}
+.logo-and-headin{
+    display: flex;
+    margin-top: 15px;
+}
+.hospital-logo{
+    height: 70px;
+    width: 70px;
+    background-image: url('../images/hs-logo.png');
+    background-size: cover;
+}
+.heading-text{
+    margin: 10px 0 0 10px;
+}
+.seconfhead{
+    margin: -20px 0 20px 80px;
+}
+.label-login{
+    font-weight: bold;
+}
+.buttonset{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-login{
+    height: 37px;
+    width: 45%;
+    margin: 15px 40px 0 0;
+    border: none;
+    border-radius: 5px;
+}
+.login{
+    background-color: #007bff;
+    color: white;
+}
+.login:hover{
+    background-color: white;
+    border: 1px solid #007bff;
+    color: #007bff;
+    cursor: pointer;
+}
+.cancel:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.gap{
+    margin-bottom: 10px;
+}
+.forgotbtn{
+    background-color: white;
+    border: none;
+}
+.fogot-pass{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+.fogot-text{
+    margin-top: 5px;
+}
+.forgotbtn:hover{
+    color: #007bff;
+}

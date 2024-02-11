@@ -1,0 +1,36 @@
+.charge-box-payment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 30px 10px 30px;
+}
+.input-payment-textboc{
+    width: 170px;
+    height: 35px;
+    padding: 5px;
+    border: 0.8px rgb(195, 195, 195) solid;
+    border-radius: 5px;
+}
+.total-charge{
+    color: red;
+}
+.payment-service-details{
+    display: flex;
+}
+.box-down{
+    margin-left: 10px;
+}
+.opd-show{
+    background-color: #007aff;
+    color: white;
+    margin-right: 30px;
+}
+.opd-show:hover{
+    background-color: white;
+    color: #007aff;
+    border: #007aff solid 1px;
+}
+.opd-show:focus + .content,
+.opd-show:active + .content {
+  display: block;
+}

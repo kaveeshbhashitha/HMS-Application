@@ -1,0 +1,126 @@
+.search-by-name{
+    height: 40px;
+    width: 360px;
+    border: 0.8px solid rgb(195, 195, 195);
+    padding: 5px;
+    border-radius: 5px;
+}
+.search-botton-set{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px 30px 20px 30px;
+}
+.search-btn-logo{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #007aff;
+    border-radius: 5px;
+    margin-left: 2px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Responsive table styles using media queries */
+@media (max-width: 768px) {
+    table.responsive-table th, table.responsive-table td {
+        display: block;
+        width: 100%;
+    }
+
+    table.responsive-table th {
+        text-align: left;
+    }
+}
+
+/* Style for alternating rows (optional) */
+table.responsive-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.button-check-in{
+    border: none;
+    background-color: #007aff;
+    height: 35px;
+    width: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    padding: 2px;
+}
+.bi-building-fill-check:hover{
+    fill: #007aff;
+}
+.button-check-in:hover{
+    border: 1px solid #007aff;
+    background-color: white;
+}
+.button-fields-message{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+}
+.schedule-count{
+    color: red;
+}
+.button-fields-doctor{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 35px;
+}
+.doctor-details-flex{
+    display: flex;
+}
+    
+.content-box-dchanl{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.first-chanel-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.no-need-one{
+    width: 170px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}

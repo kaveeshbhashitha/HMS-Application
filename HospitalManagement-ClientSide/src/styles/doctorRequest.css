@@ -1,0 +1,105 @@
+.body-opd-content{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+.search-field-opd{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.opd-reg-topic{
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+
+.button-fields-labels{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+.opd-operation-btn{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding: 3px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.opd-record{
+    color: white;
+    background-color: rgb(63, 134, 63);
+    margin-right: 20px;
+}
+.opd-clear{
+    color: white;
+    background-color: rgb(184, 18, 18);
+    margin-right: 30px;
+}
+.opd-clear:hover{
+    color: rgb(141, 10, 10);
+    border: 1px solid rgb(141, 10, 10);
+    background-color: white;
+}
+.opd-record:hover{
+    color: rgb(63, 134, 63);
+    border: 1px solid rgb(63, 134, 63);
+    background-color: white;
+}
+.channel-operation-btn{
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    padding: 3px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.drtable{
+    margin-left: 30px;
+}
+.drequest-btn{
+    height: 30px;
+    width: 80px;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+}
+.respond{
+    background-color: #007aff;
+    color: white;
+}
+.report{
+    margin-left: 10px;
+    background-color: rgb(201, 36, 36);
+    color: white;
+}
+.respond:hover,
+.report:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+    

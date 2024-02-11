@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.sidebar-body{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background: #2f2e36;
+    z-index: 100;
+    transition: all 0.5s ease;
+    font-family: 'Robato', sans-serif;
+    color: white;
+    flex-wrap: wrap;
+}
+.buttonlist{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.navbarbutton{
+    margin-top: 10px;
+    height: 45px;
+    width: 100%;
+    background: #2f2e36;
+    color: white;
+    border: none;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10px;
+    display: flex;
+    text-decoration: none;
+}
+.navbarbutton:hover{
+    cursor: pointer;
+    border: 0.8px solid #007aff;
+    color: #007aff;
+}
+.sidebar-topic{
+    text-align: left;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.topic-underline{
+    border: 1px solid white;
+    width: 75%;
+}
+.signout{
+    margin-top: 20px;
+    height: 45px;
+    width: 100%;
+    background: #2f2e36;
+    color: white;
+    border: none;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 10px;
+    display: flex;
+    text-decoration: none;
+}
+.signout:hover{
+    cursor: pointer;
+    border: 0.8px solid #e42c2c;
+    color: #e42c2c;
+    transition: all 0.5s ease-in;
+}
+
+

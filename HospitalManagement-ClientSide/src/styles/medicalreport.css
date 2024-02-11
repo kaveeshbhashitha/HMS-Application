@@ -1,0 +1,49 @@
+.issuereport-box-set{
+    width: 775px;
+    margin: 10px 10px 10px 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.issuereport-head{
+    height: auto;
+    width: 775px;
+    margin: 10px 10px 10px 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.heaing-color{
+    color: #007aff;
+}
+.testreport-data{
+    display: flex;
+}
+.test-report-input{
+    border: none;
+    margin-left: 5px;
+    padding: 3px;
+}
+.report-opd-textboc{
+    border: none;
+    margin-left: 5px;
+    padding: 3px;
+}
+.button-fields-pdf{
+    height: auto;
+    width: 775px;
+    margin: 10px 10px 10px 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}

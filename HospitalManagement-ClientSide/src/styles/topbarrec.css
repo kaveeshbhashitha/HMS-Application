@@ -1,0 +1,49 @@
+.opd-body{
+    height: 70px;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+}
+.rec-user-icon{
+    margin-right: 10px;
+    height: 30px;
+    width: 30px;
+    border: 0.5px solid rgb(195, 195, 195);
+    border-radius: 50%;
+    padding: 2px;
+    background-size: cover;
+    background-image: url(../icons/person-fill.svg);
+}
+.rec-heading-content{
+    padding-top: 18px;
+    padding-left: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.welcome-rec{
+    display: flex;
+    color: rgb(82, 82, 82);
+}
+.hi-text{
+    margin-top: 3px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+.help-button{
+    height: 35px;
+    width: 85px;
+    margin-right: 10px;
+    color: white;
+    border: 1px solid #007aff;
+    background-color: #007aff;
+    border-radius: 5px;
+}
+.help-button:hover{
+    background-color: white;
+    border: 1px solid #007aff;
+    color: #007aff;
+}

@@ -1,0 +1,134 @@
+.doctor-box-set{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.manager-box-set{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.doc-pic-boc{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/doctor-f.jpg');
+    background-size: cover;
+}
+.admin-pic-ad{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/admin.jpg');
+    background-size: cover;
+}
+.manger-pic-man{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/manager.jpg');
+    background-size: cover;
+}
+.labora-pic-lab{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/lab.jpg');
+    background-size: cover;
+}
+.nurse-pic-nur{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/nurse.png');
+    background-size: cover;
+}
+.recep-pic-rec{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/receptionist.jpg');
+    background-size: cover;
+}
+.phama-pic-pham{
+    height: auto;
+    width: 40%;
+    background-image: url('../images/pharmacist.jpg');
+    background-size: cover;
+}
+.dic-dec-box{
+    height: 500px;
+    width: 60%;
+}
+/* Table Container */
+.table-container {
+    margin: 20px;
+  }
+  
+  /* Table Styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Center the heading text */
+  th[colSpan="2"] {
+    text-align: center;
+  }
+  
+  /* Responsive styles for smaller screens */
+  @media (max-width: 768px) {
+    table {
+      font-size: 14px;
+    }
+  
+    th, td {
+      padding: 8px;
+    }
+  
+    th[colSpan="2"] {
+      text-align: center;
+    }
+  }
+.doc-up-rec-btn{
+  height: 35px;
+  width: auto;
+  padding: 4px 10px 4px 10px;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.doc-up-rec-btn:hover{
+  background-color: white;
+  color: #007aff;
+  border: #007aff 1px solid;
+}
+.button-container-docp{
+  justify-content: right;
+  display: flex;
+  margin-right: 25px;
+}

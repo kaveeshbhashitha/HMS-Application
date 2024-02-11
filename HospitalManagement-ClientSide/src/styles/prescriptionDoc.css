@@ -1,0 +1,157 @@
+.prescription-box-set{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+.presc-patient-search{
+    width: 350px;
+    height: 35px;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 10px;
+}
+.presc-patient-search-btn{
+    color: white;
+    background-color: #007aff;
+    border-radius: 3px;
+    border: none;
+    height: 35px;
+    width: auto;
+    margin-left: 5px;
+}
+.prescription-search-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.table-heading-prescription{
+    font-weight: bold;
+}
+.presc-patient-diag-box{
+    display: flex;
+}
+.sick-detail-input{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.presc-topic{
+    font-weight: bold;
+    font-size: 15px;
+    margin: 10px;
+}
+.diagnosis-name{
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+}
+.doctor-notes{
+    width: 100%;
+    height: 150px;
+    margin-top: 5px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+}
+.drug-name-inputs{
+    width: 200px;
+    height: 35px;
+    margin-top: 5px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 5px;
+    padding: 5px;
+}
+.drug-name-set{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button-doctor-help{
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #007aff;
+    color: white;
+}
+.button-doctor-help:hover{
+    border: #007aff 1px solid;
+    color: #007aff;
+    background-color: white;
+}
+.presc-record{
+    color: white;
+    background-color: rgb(63, 134, 63);
+    margin-right: 20px;
+}
+.presc-update{
+    color: white;
+    background-color: rgb(55, 122, 81);
+    margin-right: 20px;
+}
+.presc-clear{
+    color: white;
+    background-color: rgb(105, 134, 0);
+    margin-right: 30px;
+}
+.presc-review{
+    color: white;
+    background-color: rgb(34, 110, 38);
+    margin-right: 30px;
+}
+.presc-clear:hover{
+    color: rgb(105, 134, 0);
+    border: 1px solid rgb(105, 134, 0);
+    background-color: white;
+}
+.presc-record:hover{
+    color: rgb(63, 134, 63);
+    border: 1px solid rgb(63, 134, 63);
+    background-color: white;
+}
+.presc-update:hover{
+    color: rgb(55, 122, 81);
+    border: 1px solid rgb(55, 122, 81);
+    background-color: white;
+}
+.presc-review:hover{
+    color: rgb(34, 110, 38);
+    border: 1px solid rgb(34, 110, 38);
+    background-color: white;
+}
+.presc-operation-btn{
+    height: 40px;
+    width: 180px;
+    text-align: center;
+    padding: 3px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+.prescription-button-set{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: right;
+}

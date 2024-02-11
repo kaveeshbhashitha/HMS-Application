@@ -1,0 +1,172 @@
+.body-opd-content{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding-top: 20px;
+}
+.opd-reg-topic{
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: bold;
+    color: rgb(82, 82, 82);
+}
+.input-fields-labels{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 20px 30px;
+    flex-wrap: wrap;
+}
+.input-opd-fields{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.left-input-set{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.right-input-set{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+.input-opd-textboc{
+    width: 400px;
+    height: 35px;
+    padding: 5px;
+    border: 0.8px rgb(195, 195, 195) solid;
+    border-radius: 5px;
+}
+.input-opd-label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: rgb(82, 82, 82);
+}
+.search-field-opd{
+    text-align: right;
+    justify-content: right;
+    display: flex;
+    margin-right: 30px;
+}
+.search-button-opd{
+    height: 40px;
+    width: 100px;
+    border: 1px solid rgb(195, 195, 195);
+    border-left: 0;
+    border-radius: 5px;
+    display: flex;
+    background-color: #007aff;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 10px;
+    margin-left: 2px;
+}
+
+.search-textbox-opd{
+    width: 300px;
+    height: 40px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 5px 0 0 5px;
+    padding: 5px;
+}
+.search-but-opd-text{
+    font-size: 15px;
+    color: white;
+    margin-left: 8px;
+}
+.search-sent-opd{
+    margin-left: 3px;
+}
+.button-fields-labels{
+    height: auto;
+    width: auto;
+    margin-left: 270px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: right;
+    text-align: right;
+}
+.opd-operation-btn{
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    padding: 3px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.opd-record{
+    color: white;
+    background-color: rgb(63, 134, 63);
+    margin-right: 20px;
+}
+.opd-update{
+    color: white;
+    background-color: rgb(235, 189, 39);
+    margin-right: 20px;
+}
+.opd-clear{
+    color: white;
+    background-color: rgb(184, 18, 18);
+    margin-right: 30px;
+}
+.show-data{
+    background-color: #007aff;
+    margin-right: 20px;
+    color: white;
+}
+.hide-data{
+    background-color: gray;
+    margin-right: 20px;
+    color: white;
+}
+.opd-clear:hover{
+    color: rgb(141, 10, 10);
+    border: 1px solid rgb(141, 10, 10);
+    background-color: white;
+}
+.opd-record:hover{
+    color: rgb(63, 134, 63);
+    border: 1px solid rgb(63, 134, 63);
+    background-color: white;
+}
+.opd-update:hover{
+    color: rgb(212, 164, 6);
+    border: 1px solid rgb(212, 164, 6);
+    background-color: white;
+}
+.show-data:hover{
+    background-color: white;
+    color: #007aff;
+    border: 1px solid #007aff;
+}
+.hide-data:hover{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
+.channel-operation-btn{
+    height: 40px;
+    width: 190px;
+    text-align: center;
+    padding: 3px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+    

@@ -1,0 +1,42 @@
+.r-dashboard-boxset{
+    height: auto;
+    width: auto;
+    margin: 10px 10px 10px 270px;
+    border: 0.8px solid rgb(195, 195, 195);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.r-box-cont{
+    width: 200px;
+    height: 100px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+.calender-format{
+    margin-left: 270px;
+    margin-right: 10px;
+}
+.r-topic-date{
+    margin-left: 270px;
+    font-weight: bold;
+    font-size: large;
+}
+.r-topic-calender{
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+}
+.box-icons-data{
+    margin: 10px 0 0 10px;
+}
+.data-value-r{
+    margin-left: 130px;
+    font-weight: bold;
+    font-size: 35px;
+}
+.calandar-space{
+    margin-left: 270px;
+}

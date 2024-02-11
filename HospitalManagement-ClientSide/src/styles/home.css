@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.left-home-box, .right-home-box{
+  height: 600px;
+  width: 100%;
+  top: 0;
+}
+
+.right-home-box{
+  background-color: bisque;
+  background-image: url('../images/doctor-f.jpg');
+  background-size: cover;
+}
+.image-on-home{
+  background-image: url('../images/logo.jpg');
+}
+/* Container holding the image and the text */
+.text-on-home{
+  margin: 30% 0 0 20%;
+}
+.font-size-cahne{
+  font-size: 60px;
+}
+.underline-border1{
+  width: 200px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+.underline-border2{
+  width: 70px;
+  margin-top: 5px;
+  border: 1px solid black;
+}
+.underline-border3{
+  width: 10px;
+  margin-top: 5px;
+  border: 1px solid black;
+}

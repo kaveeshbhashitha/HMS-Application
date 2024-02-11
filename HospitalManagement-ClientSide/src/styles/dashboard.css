@@ -1,0 +1,20 @@
+.manager-box{
+    margin: 0 10px 0 270px;
+}
+.dashboard-box{
+    height: 150px;
+    width: 100%;
+    margin-left: 5px;
+}
+.content-in-dash{
+    display: flex;
+    justify-content: space-between;
+}
+.text-end{
+    margin-top: 40px;
+    margin-right: 10px;
+}
+.graph-box{
+    height: 100%;
+    width: 100%;
+}
